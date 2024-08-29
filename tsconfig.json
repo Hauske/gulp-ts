@@ -1,0 +1,9 @@
+{
+    "include": ["src/**/*.ts"],
+    "compilerOptions": {
+        "outDir": "dist/Scripts",
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": true,
+    }
+}

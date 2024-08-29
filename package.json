@@ -1,0 +1,32 @@
+{
+  "name": "compilador-sass-html",
+  "version": "1.0.0",
+  "description": "A CSS Only Portfolio sample page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles": "gulp styles",
+    "styles:dev": "gulp styles:dev",
+    "scripts": "gulp scripts",
+    "assets": "gulp assets",
+    "html": "gulp html",
+    "html:dev": "gulp html:dev",
+    "build": "gulp",
+    "dev": "gulp build:dev && gulp serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^4.0.1",
+    "gulp-replace": "^1.1.4",
+    "gulp-sass": "^5.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "sass": "^1.77.8",
+    "typescript": "^5.5.4"
+  }
+}
